@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Me</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#d3d3d3;
+}
+
+.header{
+    background:#bfe7f5;
+    text-align:center;
+    padding:25px;
+}
+
+.header h1{
+    margin:0;
+    font-size:40px;
+}
+
+.header p{
+    margin-top:8px;
+    font-size:18px;
+    color:#444;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:25px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00ccff;
+}
+
+.container{
+    width:70%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    text-align:center;
+    color:#0066cc;
+}
+
+label{
+    font-weight:bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #999;
+    border-radius:5px;
+    font-size:16px;
+}
+
+textarea{
+    resize:none;
+}
+
+.submit{
+    background:#4da6ff;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.submit:hover{
+    background:#0066cc;
+}
+
+.social{
+    text-align:center;
+}
+
+.social a{
+    text-decoration:none;
+    color:#0066cc;
+    margin-right:20px;
+    font-weight:bold;
+}
+
+video{
+    display:block;
+    margin:auto;
+    border-radius:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>My Personal Portfolio</h1>
+<p>Discover my journey, skills and ambitions</p>
+</div>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="aboutme.html">About Me</a>
+<a href="project.html">Projects</a>
+<a href="contactme.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name">
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter your phone number">
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Gender</label><br><br>
+
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+
+<br><br>
+
+<label>Interests</label><br><br>
+
+<input type="checkbox"> Web Development<br>
+
+<input type="checkbox"> Programming<br>
+
+<input type="checkbox"> Designing<br>
+
+<input type="checkbox"> Artificial Intelligence
+
+<br><br>
+
+<label>Message</label>
+
+<textarea rows="5" placeholder="Write your message here..."></textarea>
+
+<center>
+
+<input type="submit" value="Submit" class="submit">
+
+</center>
+
+</form>
+
+<hr>
+
+<h2>Social Media Links</h2>
+
+<div class="social">
+
+<a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+
+<a href="https://github.com" target="_blank">GitHub</a>
+
+<a href="https://www.instagram.com" target="_blank">Instagram</a>
+
+</div>
+
+<hr>
+
+<h2>Introduction Video</h2>
+
+<p style="text-align:center;">
+Watch my short introduction below.
+</p>
+
+<center>
+
+<video width="350" controls>
+
+<source src="intro.mp4" type="video/mp4">
+.
+
+</video>
+
+</center>
+
+</div>
+
+<footer>
+
+© 2026 Chanchal Moudgill | All Rights Reserved
+
+</footer>
+
+</body>
+</html>
